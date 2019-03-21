@@ -23,7 +23,16 @@ public class helloController {
     @RequestMapping("/hello")
     @ResponseBody
     public  Object hello(){
+			String s="111	此处选Jack的代码";
+<<<<<<< .mine
 			String s="rose";
+
+
+=======
+		String s="111";
+	
+
+>>>>>>> .theirs
         return "";
 
     }
