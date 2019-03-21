@@ -23,6 +23,8 @@ public class helloController {
     @RequestMapping("/hello")
     @ResponseBody
     public  Object hello(){
+		String s="111";
+	
 
         return "";
 
